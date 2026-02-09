@@ -46,10 +46,10 @@ st.text_input(
 
 # Convert display symbols to Python operators
 SYMBOL_MAP = {
-    "×": "*",
-    "÷": "/",
-    "−": "-",
-    "+": "+"
+    "✖️": "*",
+    "➗": "/",
+    "➖": "-",
+    "➕": "+"
 }
 
 # Button click handler
@@ -68,10 +68,10 @@ def press(value):
 
 # Calculator layout (UI symbols)
 buttons = [
-    ["7", "8", "9", "÷"],
-    ["4", "5", "6", "×"],
-    ["1", "2", "3", "−"],
-    ["0", ".", "=", "+"],
+    ["7", "8", "9", "➗"],
+    ["4", "5", "6", "✖️"],
+    ["1", "2", "3", "➖"],
+    ["0", ".", "=", "➕"],
     ["C"]
 ]
 
